@@ -1,17 +1,10 @@
 ' **********************************************************************
-' * This macro gets the bounding box dimensions for the config specific
-' * model and adds a small amount to it.  This amount can be changed
-' * by modifying the "AddFactor" value below.  It checks to make sure
-' * you have a proper document open.  It checks & utilizes the user units.
+' * Author: Taha Burak TÜZÜN
+' * It checks to make sure you have a proper document open.  
+' * It checks & utilizes the user units.
 ' * It will add 3 separate properties or combine them all into one property.
 ' * It will optionally draw a 3D sketch for you.
-' *
-' * Modified by Wayne Tiffany, Oct 12, 2004
-' * Updated 10/15/04
-' *
-' * Original few lines of demo code by someone else (unknown).  Fraction
-' * converter original code from rocheey.  3D sketch original code from
-' * SW help.
+' * 3D sketch original code from SW help.
 ' **********************************************************************
 
 Dim arrBody As Variant
